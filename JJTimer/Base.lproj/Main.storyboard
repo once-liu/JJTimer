@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dhy-Yd-LG9">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
@@ -8,38 +8,38 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--JJTimer-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="JJTimerController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fCT-sB-03M">
-                                <rect key="frame" x="157" y="160" width="100" height="80"/>
+                                <rect key="frame" x="157" y="204" width="100" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="aqj-pZ-mkJ"/>
                                     <constraint firstAttribute="height" constant="80" id="spA-qi-0Bw"/>
                                 </constraints>
                                 <state key="normal" title="Start"/>
                                 <connections>
-                                    <action selector="startAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ggk-d7-roA"/>
+                                    <action selector="startAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ifx-mj-c46"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eMa-VU-QB3">
-                                <rect key="frame" x="157" y="300" width="100" height="80"/>
+                                <rect key="frame" x="157" y="344" width="100" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="Ab5-GA-KRf"/>
                                     <constraint firstAttribute="width" constant="100" id="hjM-3o-k3Q"/>
                                 </constraints>
                                 <state key="normal" title="End"/>
                                 <connections>
-                                    <action selector="endAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eN5-NL-hRE"/>
+                                    <action selector="endAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xj4-Ek-HlQ"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="I7W-74-tpt">
-                                <rect key="frame" x="12" y="400" width="390" height="120"/>
+                                <rect key="frame" x="12" y="444" width="390" height="120"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="pCK-jt-d8k"/>
@@ -62,10 +62,60 @@
                             <constraint firstItem="fCT-sB-03M" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zqO-Kl-1oi"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="JJTimer" id="IJ6-Wi-7o1"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="140.57971014492756" y="80.357142857142847"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="eLE-kk-rNC">
+            <objects>
+                <navigationController id="dhy-Yd-LG9" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="SZg-kx-NMC">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="17l-Pd-Y4d" kind="relationship" relationship="rootViewController" id="efu-m9-ZqN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wfc-5v-GSS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1374" y="80"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="zqL-rk-d2N">
+            <objects>
+                <viewController id="17l-Pd-Y4d" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SiS-MD-yrU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OWu-7a-EGD">
+                                <rect key="frame" x="157" y="238" width="100" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="GNj-oV-oo5"/>
+                                    <constraint firstAttribute="width" constant="100" id="ftv-GJ-dE3"/>
+                                </constraints>
+                                <state key="normal" title="Push"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="2HV-9q-K1G"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="qut-Lm-6MI"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="OWu-7a-EGD" firstAttribute="top" secondItem="qut-Lm-6MI" secondAttribute="top" constant="150" id="3hv-kT-kWr"/>
+                            <constraint firstItem="OWu-7a-EGD" firstAttribute="centerX" secondItem="SiS-MD-yrU" secondAttribute="centerX" id="KLv-Cs-Lmd"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Wpt-xz-IkP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A1Z-xJ-d1j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-623.1884057971015" y="79.6875"/>
         </scene>
     </scenes>
     <resources>
