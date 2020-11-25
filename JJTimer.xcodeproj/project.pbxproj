@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A7ECF57256E89DC00EB5D70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7ECF56256E89DC00EB5D70 /* AppDelegate.m */; };
+		5A7ECF5A256E89DC00EB5D70 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7ECF59256E89DC00EB5D70 /* SceneDelegate.m */; };
+		5A7ECF5D256E89DC00EB5D70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7ECF5C256E89DC00EB5D70 /* ViewController.m */; };
+		5A7ECF60256E89DC00EB5D70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A7ECF5E256E89DC00EB5D70 /* Main.storyboard */; };
+		5A7ECF62256E89E000EB5D70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A7ECF61256E89E000EB5D70 /* Assets.xcassets */; };
+		5A7ECF65256E89E000EB5D70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A7ECF63256E89E000EB5D70 /* LaunchScreen.storyboard */; };
+		5A7ECF68256E89E000EB5D70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7ECF67256E89E000EB5D70 /* main.m */; };
+		5A7ECF72256E89E000EB5D70 /* JJTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7ECF71256E89E000EB5D70 /* JJTimerTests.m */; };
+		5A7ECF7D256E89E000EB5D70 /* JJTimerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7ECF7C256E89E000EB5D70 /* JJTimerUITests.m */; };
+		5A7ECF93256E8A9700EB5D70 /* JJTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7ECF92256E8A9700EB5D70 /* JJTimer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A7ECF6E256E89E000EB5D70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A7ECF4A256E89DC00EB5D70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A7ECF51256E89DC00EB5D70;
+			remoteInfo = JJTimer;
+		};
+		5A7ECF79256E89E000EB5D70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A7ECF4A256E89DC00EB5D70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A7ECF51256E89DC00EB5D70;
+			remoteInfo = JJTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A7ECF52256E89DC00EB5D70 /* JJTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A7ECF55256E89DC00EB5D70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A7ECF56256E89DC00EB5D70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A7ECF58256E89DC00EB5D70 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		5A7ECF59256E89DC00EB5D70 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		5A7ECF5B256E89DC00EB5D70 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5A7ECF5C256E89DC00EB5D70 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5A7ECF5F256E89DC00EB5D70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A7ECF61256E89E000EB5D70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A7ECF64256E89E000EB5D70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A7ECF66256E89E000EB5D70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A7ECF67256E89E000EB5D70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A7ECF6D256E89E000EB5D70 /* JJTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A7ECF71256E89E000EB5D70 /* JJTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJTimerTests.m; sourceTree = "<group>"; };
+		5A7ECF73256E89E000EB5D70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A7ECF78256E89E000EB5D70 /* JJTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A7ECF7C256E89E000EB5D70 /* JJTimerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJTimerUITests.m; sourceTree = "<group>"; };
+		5A7ECF7E256E89E000EB5D70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A7ECF91256E8A9700EB5D70 /* JJTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJTimer.h; sourceTree = "<group>"; };
+		5A7ECF92256E8A9700EB5D70 /* JJTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJTimer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A7ECF4F256E89DC00EB5D70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A7ECF6A256E89E000EB5D70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A7ECF75256E89E000EB5D70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A7ECF49256E89DC00EB5D70 = {
+			isa = PBXGroup;
+			children = (
+				5A7ECF54256E89DC00EB5D70 /* JJTimer */,
+				5A7ECF70256E89E000EB5D70 /* JJTimerTests */,
+				5A7ECF7B256E89E000EB5D70 /* JJTimerUITests */,
+				5A7ECF53256E89DC00EB5D70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A7ECF53256E89DC00EB5D70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A7ECF52256E89DC00EB5D70 /* JJTimer.app */,
+				5A7ECF6D256E89E000EB5D70 /* JJTimerTests.xctest */,
+				5A7ECF78256E89E000EB5D70 /* JJTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A7ECF54256E89DC00EB5D70 /* JJTimer */ = {
+			isa = PBXGroup;
+			children = (
+				5A7ECF90256E8A7D00EB5D70 /* JJTimer */,
+				5A7ECF55256E89DC00EB5D70 /* AppDelegate.h */,
+				5A7ECF56256E89DC00EB5D70 /* AppDelegate.m */,
+				5A7ECF58256E89DC00EB5D70 /* SceneDelegate.h */,
+				5A7ECF59256E89DC00EB5D70 /* SceneDelegate.m */,
+				5A7ECF5B256E89DC00EB5D70 /* ViewController.h */,
+				5A7ECF5C256E89DC00EB5D70 /* ViewController.m */,
+				5A7ECF5E256E89DC00EB5D70 /* Main.storyboard */,
+				5A7ECF61256E89E000EB5D70 /* Assets.xcassets */,
+				5A7ECF63256E89E000EB5D70 /* LaunchScreen.storyboard */,
+				5A7ECF66256E89E000EB5D70 /* Info.plist */,
+				5A7ECF67256E89E000EB5D70 /* main.m */,
+			);
+			path = JJTimer;
+			sourceTree = "<group>";
+		};
+		5A7ECF70256E89E000EB5D70 /* JJTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A7ECF71256E89E000EB5D70 /* JJTimerTests.m */,
+				5A7ECF73256E89E000EB5D70 /* Info.plist */,
+			);
+			path = JJTimerTests;
+			sourceTree = "<group>";
+		};
+		5A7ECF7B256E89E000EB5D70 /* JJTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A7ECF7C256E89E000EB5D70 /* JJTimerUITests.m */,
+				5A7ECF7E256E89E000EB5D70 /* Info.plist */,
+			);
+			path = JJTimerUITests;
+			sourceTree = "<group>";
+		};
+		5A7ECF90256E8A7D00EB5D70 /* JJTimer */ = {
+			isa = PBXGroup;
+			children = (
+				5A7ECF91256E8A9700EB5D70 /* JJTimer.h */,
+				5A7ECF92256E8A9700EB5D70 /* JJTimer.m */,
+			);
+			path = JJTimer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A7ECF51256E89DC00EB5D70 /* JJTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A7ECF81256E89E000EB5D70 /* Build configuration list for PBXNativeTarget "JJTimer" */;
+			buildPhases = (
+				5A7ECF4E256E89DC00EB5D70 /* Sources */,
+				5A7ECF4F256E89DC00EB5D70 /* Frameworks */,
+				5A7ECF50256E89DC00EB5D70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JJTimer;
+			productName = JJTimer;
+			productReference = 5A7ECF52256E89DC00EB5D70 /* JJTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A7ECF6C256E89E000EB5D70 /* JJTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A7ECF84256E89E000EB5D70 /* Build configuration list for PBXNativeTarget "JJTimerTests" */;
+			buildPhases = (
+				5A7ECF69256E89E000EB5D70 /* Sources */,
+				5A7ECF6A256E89E000EB5D70 /* Frameworks */,
+				5A7ECF6B256E89E000EB5D70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A7ECF6F256E89E000EB5D70 /* PBXTargetDependency */,
+			);
+			name = JJTimerTests;
+			productName = JJTimerTests;
+			productReference = 5A7ECF6D256E89E000EB5D70 /* JJTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A7ECF77256E89E000EB5D70 /* JJTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A7ECF87256E89E000EB5D70 /* Build configuration list for PBXNativeTarget "JJTimerUITests" */;
+			buildPhases = (
+				5A7ECF74256E89E000EB5D70 /* Sources */,
+				5A7ECF75256E89E000EB5D70 /* Frameworks */,
+				5A7ECF76256E89E000EB5D70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A7ECF7A256E89E000EB5D70 /* PBXTargetDependency */,
+			);
+			name = JJTimerUITests;
+			productName = JJTimerUITests;
+			productReference = 5A7ECF78256E89E000EB5D70 /* JJTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A7ECF4A256E89DC00EB5D70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					5A7ECF51256E89DC00EB5D70 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					5A7ECF6C256E89E000EB5D70 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 5A7ECF51256E89DC00EB5D70;
+					};
+					5A7ECF77256E89E000EB5D70 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 5A7ECF51256E89DC00EB5D70;
+					};
+				};
+			};
+			buildConfigurationList = 5A7ECF4D256E89DC00EB5D70 /* Build configuration list for PBXProject "JJTimer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A7ECF49256E89DC00EB5D70;
+			productRefGroup = 5A7ECF53256E89DC00EB5D70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A7ECF51256E89DC00EB5D70 /* JJTimer */,
+				5A7ECF6C256E89E000EB5D70 /* JJTimerTests */,
+				5A7ECF77256E89E000EB5D70 /* JJTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A7ECF50256E89DC00EB5D70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A7ECF65256E89E000EB5D70 /* LaunchScreen.storyboard in Resources */,
+				5A7ECF62256E89E000EB5D70 /* Assets.xcassets in Resources */,
+				5A7ECF60256E89DC00EB5D70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A7ECF6B256E89E000EB5D70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A7ECF76256E89E000EB5D70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A7ECF4E256E89DC00EB5D70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A7ECF5D256E89DC00EB5D70 /* ViewController.m in Sources */,
+				5A7ECF93256E8A9700EB5D70 /* JJTimer.m in Sources */,
+				5A7ECF57256E89DC00EB5D70 /* AppDelegate.m in Sources */,
+				5A7ECF68256E89E000EB5D70 /* main.m in Sources */,
+				5A7ECF5A256E89DC00EB5D70 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A7ECF69256E89E000EB5D70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A7ECF72256E89E000EB5D70 /* JJTimerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A7ECF74256E89E000EB5D70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A7ECF7D256E89E000EB5D70 /* JJTimerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A7ECF6F256E89E000EB5D70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A7ECF51256E89DC00EB5D70 /* JJTimer */;
+			targetProxy = 5A7ECF6E256E89E000EB5D70 /* PBXContainerItemProxy */;
+		};
+		5A7ECF7A256E89E000EB5D70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A7ECF51256E89DC00EB5D70 /* JJTimer */;
+			targetProxy = 5A7ECF79256E89E000EB5D70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A7ECF5E256E89DC00EB5D70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A7ECF5F256E89DC00EB5D70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A7ECF63256E89E000EB5D70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A7ECF64256E89E000EB5D70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A7ECF7F256E89E000EB5D70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5A7ECF80256E89E000EB5D70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A7ECF82256E89E000EB5D70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JJTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lzc.JJTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A7ECF83256E89E000EB5D70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JJTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lzc.JJTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A7ECF85256E89E000EB5D70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JJTimerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lzc.JJTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJTimer.app/JJTimer";
+			};
+			name = Debug;
+		};
+		5A7ECF86256E89E000EB5D70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JJTimerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lzc.JJTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJTimer.app/JJTimer";
+			};
+			name = Release;
+		};
+		5A7ECF88256E89E000EB5D70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JJTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lzc.JJTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JJTimer;
+			};
+			name = Debug;
+		};
+		5A7ECF89256E89E000EB5D70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JJTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lzc.JJTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JJTimer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A7ECF4D256E89DC00EB5D70 /* Build configuration list for PBXProject "JJTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A7ECF7F256E89E000EB5D70 /* Debug */,
+				5A7ECF80256E89E000EB5D70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A7ECF81256E89E000EB5D70 /* Build configuration list for PBXNativeTarget "JJTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A7ECF82256E89E000EB5D70 /* Debug */,
+				5A7ECF83256E89E000EB5D70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A7ECF84256E89E000EB5D70 /* Build configuration list for PBXNativeTarget "JJTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A7ECF85256E89E000EB5D70 /* Debug */,
+				5A7ECF86256E89E000EB5D70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A7ECF87256E89E000EB5D70 /* Build configuration list for PBXNativeTarget "JJTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A7ECF88256E89E000EB5D70 /* Debug */,
+				5A7ECF89256E89E000EB5D70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A7ECF4A256E89DC00EB5D70 /* Project object */;
+}
