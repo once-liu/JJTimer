@@ -7,6 +7,7 @@
 
 #import "JJTimerController.h"
 #import "JJTimer.h"
+#import "JJProxy.h"
 
 @interface JJTimerController ()
 
@@ -18,6 +19,8 @@
 
 - (void)dealloc {
     NSLog(@" - dealloc - ");
+    
+    [self.nsTimer invalidate];
 }
 
 
@@ -26,6 +29,26 @@
     // Do any additional setup after loading the view.
     
     //FIXME: NSTimer 过渡解决方案
+    NSTimer *timer = [NSTimer timerWithTimeInterval:1
+                                             target:[JJProxy jj_proxyWithTarget:self]
+                                           selector:@selector(nsTimerAction:)
+                                           userInfo:nil
+                                            repeats:YES];
+    [[NSRunLoop currentRunLoop] addTimer:timer forMode:NSDefaultRunLoopMode];
+    self.nsTimer = timer;
+    
+//    NSTimer *timer = [NSTimer timerWithTimeInterval:1 repeats:YES block:^(NSTimer * _Nonnull timer) {
+//        NSLog(@" - %s", __func__);
+//    }];
+//    [[NSRunLoop currentRunLoop] addTimer:timer forMode:NSDefaultRunLoopMode];
+//    self.nsTimer = timer;
+    
+//    self.nsTimer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(nsTimerAction:) userInfo:nil repeats:YES];
+    
+//    self.nsTimer = [NSTimer scheduledTimerWithTimeInterval:1 repeats:YES block:^(NSTimer * _Nonnull timer) {
+//        NSLog(@" - %s", __func__);
+//    }];
+    
 }
 
 

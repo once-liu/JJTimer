@@ -18,6 +18,7 @@
 		5A7ECF7D256E89E000EB5D70 /* JJTimerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7ECF7C256E89E000EB5D70 /* JJTimerUITests.m */; };
 		5A7ECF93256E8A9700EB5D70 /* JJTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7ECF92256E8A9700EB5D70 /* JJTimer.m */; };
 		5A7ECF9C256E9BAF00EB5D70 /* JJTimerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7ECF9B256E9BAF00EB5D70 /* JJTimerController.m */; };
+		5A8D5058256FE28F00C1148D /* JJProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8D5057256FE28F00C1148D /* JJProxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		5A7ECF92256E8A9700EB5D70 /* JJTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJTimer.m; sourceTree = "<group>"; };
 		5A7ECF9A256E9BAF00EB5D70 /* JJTimerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJTimerController.h; sourceTree = "<group>"; };
 		5A7ECF9B256E9BAF00EB5D70 /* JJTimerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJTimerController.m; sourceTree = "<group>"; };
+		5A8D5056256FE28F00C1148D /* JJProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJProxy.h; sourceTree = "<group>"; };
+		5A8D5057256FE28F00C1148D /* JJProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJProxy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				5A7ECF5C256E89DC00EB5D70 /* ViewController.m */,
 				5A7ECF9A256E9BAF00EB5D70 /* JJTimerController.h */,
 				5A7ECF9B256E9BAF00EB5D70 /* JJTimerController.m */,
+				5A8D5056256FE28F00C1148D /* JJProxy.h */,
+				5A8D5057256FE28F00C1148D /* JJProxy.m */,
 				5A7ECF5E256E89DC00EB5D70 /* Main.storyboard */,
 				5A7ECF61256E89E000EB5D70 /* Assets.xcassets */,
 				5A7ECF63256E89E000EB5D70 /* LaunchScreen.storyboard */,
@@ -287,6 +292,7 @@
 				5A7ECF5D256E89DC00EB5D70 /* ViewController.m in Sources */,
 				5A7ECF9C256E9BAF00EB5D70 /* JJTimerController.m in Sources */,
 				5A7ECF93256E8A9700EB5D70 /* JJTimer.m in Sources */,
+				5A8D5058256FE28F00C1148D /* JJProxy.m in Sources */,
 				5A7ECF57256E89DC00EB5D70 /* AppDelegate.m in Sources */,
 				5A7ECF68256E89E000EB5D70 /* main.m in Sources */,
 				5A7ECF5A256E89DC00EB5D70 /* SceneDelegate.m in Sources */,
