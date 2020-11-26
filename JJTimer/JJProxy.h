@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface JJProxy : NSObject
+@interface JJProxy : NSProxy
 
 + (instancetype)jj_proxyWithTarget:(id)target;
 
