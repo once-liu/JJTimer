@@ -20,7 +20,7 @@
 - (void)dealloc {
     NSLog(@" - dealloc - ");
     
-    [self.nsTimer invalidate];
+    [JJTimer jj_invalidateAll];
 }
 
 
@@ -33,7 +33,6 @@
 
 
 - (IBAction)startAction:(id)sender {
-    //FIXME: 通过 identifier， 停止多个开启的 timer
     [JJTimer jj_scheduledTimerWithAsync:YES interval:1.5 delay:0 repeats:YES block:^{
         NSLog(@" - 1 - thread: %@", [NSThread currentThread]);
     }];
@@ -41,10 +40,11 @@
     [JJTimer jj_scheduledTimerWithAsync:YES interval:1.5 delay:0 repeats:YES block:^{
         NSLog(@" - 2 - thread: %@", [NSThread currentThread]);
     }];
+    
 }
 
 - (IBAction)endAction:(id)sender {
-    [JJTimer jj_invalidate];
+    [JJTimer jj_invalidateWithIdentifier:@"1"];
     
     [self.nsTimer invalidate];
 }
